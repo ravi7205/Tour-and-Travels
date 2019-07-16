@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </sytle>
+    <body>
+        <div>
+            Add Location
+            <hr/>
+            <form action='/api/add/location' method="POST">
+                <input placeholder="Location name" name='name'>
+                <button>Submit</button>
+            </form>
+        </div>
+        <div>
+            Add Hotel
+            <hr/>
+            <form action='/api/add/hotel' method="POST">
+                <input placeholder="Hotel Name" name='name'>
+                <input placeholder="Location Name" name='location'>
+                <input placeholder="PerPersonCost" name='cost' type="number">
+                <button>Submit</button>
+            </form>
+        </div>
+        <div>
+            Add Flight
+            <hr/>
+            <form action='/api/add/flight' method="POST">
+                <input placeholder="Source" name="source">
+                <input placeholder="Destination" name="destination">
+                <input placeholder="Cost" name="cost" type="number">
+                <input placeholder="StartTime" name ="StartTime", type="time">
+                <input placeholder="TravelTime" name="travelTime" type="time">
+                <button>Submit</button>
+        </div>
+        <div>
+            Add Train
+            <hr/>
+            <form action='/api/add/train' method="POST">
+                <input placeholder="Source" name="source">
+                <input placeholder="Destination" name="destination">
+                <input placeholder="Cost" name="cost" type="number">
+                <input placeholder="StartTime" name ="StartTime", type="time">
+                <input placeholder="TravelTime" name="travelTime" type="time">
+                <button>Submit</button>
+        </div>
+        <div>
+            Add Bus
+            <hr/>
+            <form action='/api/add/bus' method="POST">
+                <input placeholder="Source" name="source">
+                <input placeholder="Destination" name="destination">
+                <input placeholder="Cost" name="cost" type="number">
+                <input placeholder="StartTime" name ="StartTime", type="time">
+                <input placeholder="TravelTime" name="travelTime" type="time">
+                <button>Submit</button>
+        </div>
+        <div>
+            Add User
+            <hr/>
+            <form action='/api/add/user' method="POST">
+                <input placeholder="Username" name='username'>
+                <input placeholder="First Name" name='firstname'>
+                <input placeholder="Last Name" name='lastname'>
+                <input placeholder="E-Mail" name='email' type="email">
+                <input placeholder="Password" name='password' type="password">
+                <button>Submit</button>
+            </form>
+        </div>
+        <div>
+            Add Package
+            <hr/>
+            <form action='/api/add/package' method="POST">
+                <input placeholder="TourID" name='tourId' type="number">
+                <input placeholder="HoteID" name='hotelId' type="number">
+                <input placeholder="NumDays" name='numDays' type="number">
+                <input placeholder="NumNights" name='numNights' type="number">
+                <input placeholder="OtherCost" name='otherCost' type="number">
+                <input placeholder="Discount" name='discount' type="number">
+                <button>Submit</button>
+            </form>
+	    </div>
+    </body>
+    </script>
+
+</html> 
